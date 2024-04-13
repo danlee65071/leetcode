@@ -17,7 +17,6 @@ class Solution:
             for j in range(len(matrix[0])):
                 if i in set_zeroes_rows or j in set_zeroes_cols:
                     matrix[i][j] = 0
-                
 
 
 solution = Solution()
